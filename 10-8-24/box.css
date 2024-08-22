@@ -1,0 +1,59 @@
+.container{
+    width: 400px;
+    background-color: rgb(57, 152, 236);
+    border-color: rgb(41, 37, 37) !important;
+}
+header{
+    height: 75px;
+    background-color: lightpink;
+    margin-top: 20px;
+}
+*{
+    margin: 10px ;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.container, .container> * , main > * , article > *{
+    border: 2px groove white;
+    border-radius: 2px;
+}
+nav{
+    height: 50px;
+    background-color: green;
+}
+aside{
+    vertical-align: top ;
+    width: 100px;
+    height: 260px;
+    background-color: lightpink;
+}
+aside,main{
+    display: inline-block;
+}
+span{
+    display: block;
+    background-color: blanchedalmond;
+}
+p{
+    background-color: rgb(242, 220, 114);
+}
+main{
+    width: 205px;
+    height: 260px;
+    background-color: rgb(90, 201, 175);
+}
+article{
+    /* width: 200px; */
+    height: 130px;
+    background-color: rgb(75, 160, 189);
+}
+section{
+    height: 50px;
+    background-color: rgb(62, 115, 188);
+}
+footer{
+    height: 75px;
+    background-color: rgb(201, 105, 208);
+}
+
